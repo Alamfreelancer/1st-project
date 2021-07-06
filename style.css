@@ -59,7 +59,7 @@ h2{
 .nd-side{
     width: 100%;
     background-image: url(images/shapes/7.png);
-  
+    background-repeat: no-repeat;
 }
 
 .header-half-1{

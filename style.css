@@ -17,7 +17,7 @@ p{
 
 h2{
     font-size: 35px;
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 .color-change{
@@ -57,14 +57,14 @@ h2{
 }
 
 .nd-side{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
     width: 100%;
-    
+    background-image: url(images/shapes/7.png);
+  
 }
 
 .header-half-1{
     width:50%;
+  
 }
 
 .header-half-1 img{
@@ -79,12 +79,88 @@ h2{
 .header-half-1 p{
     padding-bottom: 20px;
     font-size: 20px;
+    width:50%;
 }
 
 .header-half-1 a{
     padding-bottom: 10px;
+    width:50%;
 }
 
 .mid-topic{
 text-align:center ;
 }
+
+.mid-topic p{
+    font-weight: 400 ;
+    }
+
+.mid-topic h2{
+    color: gray ;
+ }    
+
+.experience-box{
+    display: flex;
+}
+.boxes{
+    width:30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 2px 2px 10px gray;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.boxes img{
+    width:100%;
+}
+
+.boxes p{
+    font-weight: 400;
+}
+
+.boxes h2{
+    color: gray;
+}
+
+.last-container{
+    display: flex;
+    width:90%;
+    border-radius: 15px;
+    margin:auto;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+
+.last-step{
+    padding: 15px 220px;
+    text-align: center;
+}
+
+.last-step h2{
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: gray;
+}
+
+footer h3{
+    padding-bottom: 5px;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+footer p{
+    padding-bottom: 80px;
+    color: white;
+}
+.footer-color-change{
+    color:yellowgreen;
+    font-size: 32px;
+    font-weight: 300;
+}
+
